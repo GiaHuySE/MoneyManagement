@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/chuyenHu"
+            android:icon="@drawable/baseline_loop_24"
+            android:title="Chuyển hũ"
+            />
+        <item android:id="@+id/chinhSuaTiLe"
+            android:icon="@drawable/baseline_edit_24"
+            android:title="Chỉnh sửa tỉ lệ"/>
+    </group>
+</menu>

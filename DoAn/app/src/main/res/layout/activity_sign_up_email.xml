@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignUpEmailActivity">
+
+    <TextView
+        android:id="@+id/txtDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtSignUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Email"
+        android:layout_marginHorizontal="20dp"
+        android:padding="20dp"
+        android:background="#30FFFFFF"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserName" />
+
+    <EditText
+        android:id="@+id/txtSignUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="44dp"
+        android:background="#30FFFFFF"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSignUpEmail" />
+
+    <EditText
+        android:id="@+id/txtSignUpRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#30FFFFFF"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSignUpPassword" />
+
+    <Button
+        android:id="@+id/btnSignUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Đăng ký"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#00abaa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSignUpRepeatPassword" />
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#30FFFFFF"
+        android:hint="Tên người dùng"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDangKy" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnShowPassword"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/txtSignUpPassword"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/txtSignUpEmail" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnShowRepeatPassword"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.509"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/txtSignUpRepeatPassword"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnShowPassword" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

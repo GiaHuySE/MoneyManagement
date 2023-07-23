@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corners">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioTatCa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tất cả các hũ"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioThietYeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ thiết yếu"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioGiaoDuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ giáo dục"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioTietKiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ tiết kiệm"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioDauTu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ đầu tư"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioHuongThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ hưởng thụ"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioThienTam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hũ thiện tâm"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"/>
+</LinearLayout>
